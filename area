@@ -1,0 +1,21 @@
+"""
+Implemente uma função em Python que tenha
+como parâmetros as duas dimensões de um
+cômodo (em metros), calcule a sua área
+(em m2) e a potência de iluminação que
+deverá ser utilizada. Para iluminar de
+maneira correta os cômodos de uma casa,
+para cada m2 deve-se usar 18 W de
+potência
+"""
+
+def area(comprimento, largura):
+    areaQuadrada = comprimento * largura
+    potenciaNecessaria = areaQuadrada * 18
+    return potenciaNecessaria
+
+
+
+potencia = area(9,8)
+
+print('Essa é a potência necessária: ', potencia)
